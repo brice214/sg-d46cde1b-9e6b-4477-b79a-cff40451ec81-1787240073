@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,74 +13,92 @@
 @layer base {
   :root {
     --radius: 0.55rem;
+    
+    /* LIONS SERVICES Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 330 0% 0.3%;
+    --foreground: 0 0% 10%;
+    
+    --primary: 217 100% 34%;
+    --primary-foreground: 0 0% 100%;
+    
+    --navy: 210 100% 12%;
+    --navy-foreground: 0 0% 100%;
+    
+    --gold: 43 65% 53%;
+    --gold-foreground: 0 0% 10%;
+    
+    --muted: 210 17% 98%;
+    --muted-foreground: 0 0% 40%;
+    
+    --accent: 43 65% 53%;
+    --accent-foreground: 0 0% 10%;
+    
     --card: 0 0% 100%;
-    --card-foreground: 330 0% 0.3%;
+    --card-foreground: 0 0% 10%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 330 0% 0.3%;
-    --primary: 0 0% 4.5%;
-    --primary-foreground: 0 0% 97.5%;
-    --secondary: 0 0% 97.3%;
-    --secondary-foreground: 0 0% 4.5%;
-    --muted: 0 0% 97.3%;
-    --muted-foreground: 0 0% 55.7%;
-    --accent: 0 0% 97.3%;
-    --accent-foreground: 0 0% 4.5%;
-    --destructive: 359.9132 100.2494% 67.8807%;
-    --destructive-foreground: 0 0% 0%;
-    --border: 0 0% 92.2%;
-    --input: 0 0% 92.2%;
-    --ring: 0 0% 70.8%;
-    --chart-1: 41.1 71.2% 54.4%;
-    --chart-2: 184.7 32.4% 48.6%;
-    --chart-3: 227.4 15.2% 33.3%;
-    --chart-4: 84.4 74.8% 75.7%;
-    --chart-5: 70.1 74.3% 70.5%;
+    --popover-foreground: 0 0% 10%;
+    
+    --secondary: 210 17% 98%;
+    --secondary-foreground: 0 0% 10%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 92%;
+    --input: 0 0% 92%;
+    --ring: 217 100% 34%;
+    
+    --chart-1: 217 100% 34%;
+    --chart-2: 210 100% 12%;
+    --chart-3: 43 65% 53%;
+    --chart-4: 200 20% 60%;
+    --chart-5: 30 30% 70%;
+    
     --sidebar: 0 0% 97.5%;
-    --sidebar-foreground: 330 0% 0.3%;
-    --sidebar-primary: 0 0% 4.5%;
-    --sidebar-primary-foreground: 0 0% 97.5%;
-    --sidebar-accent: 0 0% 97.3%;
-    --sidebar-accent-foreground: 0 0% 4.5%;
-    --sidebar-border: 0 0% 92.2%;
-    --sidebar-ring: 0 0% 70.8%;
+    --sidebar-foreground: 0 0% 10%;
+    --sidebar-primary: 217 100% 34%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 17% 98%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 0% 92%;
+    --sidebar-ring: 217 100% 34%;
   }
 
   .dark {
     --radius: 0.55rem;
-    --background: 330 0% 0.3%;
+    --background: 210 100% 12%;
     --foreground: 0 0% 97.5%;
-    --card: 0 0% 4.5%;
+    --card: 210 80% 16%;
     --card-foreground: 0 0% 97.5%;
-    --popover: 0 0% 8.6%;
+    --popover: 210 80% 16%;
     --popover-foreground: 0 0% 97.5%;
-    --primary: 0 0% 92.2%;
-    --primary-foreground: 0 0% 4.5%;
-    --secondary: 0 0% 8.6%;
+    --primary: 217 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 30% 25%;
     --secondary-foreground: 0 0% 97.5%;
-    --muted: 0 0% 8.6%;
-    --muted-foreground: 0 0% 70.8%;
-    --accent: 0 0% 21.2%;
-    --accent-foreground: 0 0% 97.5%;
-    --destructive: 359.9132 100.2494% 67.8807%;
-    --destructive-foreground: 0 0% 0%;
+    --muted: 210 30% 25%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 43 65% 53%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
     --border: 0 0% 100% / 15%;
     --input: 0 0% 100% / 15%;
-    --ring: 0 0% 55.7%;
-    --chart-1: 264.4 77.2% 41.9%;
-    --chart-2: 162.5 46.7% 57.3%;
-    --chart-3: 70.1 74.3% 70.5%;
-    --chart-4: 303.9 75.8% 51.6%;
-    --chart-5: 16.4 84.7% 55.4%;
-    --sidebar: 0 0% 4.5%;
+    --ring: 217 100% 50%;
+    --chart-1: 217 100% 50%;
+    --chart-2: 43 65% 53%;
+    --chart-3: 200 40% 60%;
+    --chart-4: 180 30% 50%;
+    --chart-5: 30 40% 60%;
+    --sidebar: 210 100% 12%;
     --sidebar-foreground: 0 0% 97.5%;
-    --sidebar-primary: 264.4 77.2% 41.9%;
-    --sidebar-primary-foreground: 0 0% 97.5%;
-    --sidebar-accent: 0 0% 8.6%;
+    --sidebar-primary: 217 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 30% 25%;
     --sidebar-accent-foreground: 0 0% 97.5%;
     --sidebar-border: 0 0% 100% / 10%;
-    --sidebar-ring: 0 0% 43.9%;
+    --sidebar-ring: 217 100% 50%;
   }
 }
 
@@ -87,12 +107,20 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
 }
 
 @layer components {
   .container {
     @apply mx-auto px-4 md:px-6 lg:px-8 max-w-7xl w-full;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .gold-accent-line {
+    @apply w-16 h-0.5 bg-gold;
   }
 }
