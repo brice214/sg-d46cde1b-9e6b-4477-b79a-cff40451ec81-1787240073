@@ -32,13 +32,19 @@ export function Footer() {
       <div className="container py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <Image
-              src="/images/logo.jpg"
-              alt="Lions Services Gabon"
-              width={180}
-              height={60}
-              className="h-12 w-auto mb-6"
-            />
+            <Link href="/" className="flex items-center gap-3 mb-6 group">
+              <div className="relative w-12 h-12 flex-shrink-0">
+                <Image
+                  src="/images/logo.jpg"
+                  alt="LIONS SERVICES GABON"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <span className="text-white font-heading font-bold text-base tracking-wide uppercase">
+                LIONS SERVICES GABON
+              </span>
+            </Link>
             <p className="text-white/70 leading-relaxed mb-6">
               Inspection, contrôle, vérification et formation pour sécuriser vos opérations industrielles.
             </p>

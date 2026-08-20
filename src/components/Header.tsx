@@ -35,17 +35,21 @@ export function Header() {
           : "bg-navy/80 backdrop-blur-sm"
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container">
         <div className="flex items-center justify-between h-20">
-          <Link href="#accueil" className="flex items-center">
-            <Image
-              src="/images/logo.jpg"
-              alt="Lions Services Gabon"
-              width={180}
-              height={60}
-              className="h-12 w-auto"
-              priority
-            />
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative w-12 h-12 flex-shrink-0">
+              <Image
+                src="/images/logo.jpg"
+                alt="LIONS SERVICES GABON"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <span className="text-white font-heading font-bold text-lg tracking-wide uppercase hidden sm:block">
+              LIONS SERVICES GABON
+            </span>
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">

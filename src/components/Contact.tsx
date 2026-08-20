@@ -91,24 +91,24 @@ export function Contact() {
             </p>
           </div>
 
-          <div className="grid gap-6 mb-12">
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
             <a
               href="tel:+24166928017"
-              className="flex items-start gap-4 p-6 bg-white rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all"
+              className="flex flex-col items-center text-center gap-4 p-6 bg-white rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Phone className="w-6 h-6 text-primary" />
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-2">Téléphone</h3>
-                <p className="text-foreground/70">+241 66 92 80 17</p>
-                <p className="text-foreground/70">+241 06 18 25 14</p>
+                <p className="text-foreground/70 text-sm">+241 66 92 80 17</p>
+                <p className="text-foreground/70 text-sm">+241 06 18 25 14</p>
               </div>
             </a>
 
             <a
-              href="mailto:lionsservicesgabon@gmail.com"
-              className="flex items-start gap-4 p-6 bg-white rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all"
+              href="mailto:lionsservicesgabon@lionssg.net"
+              className="flex flex-col items-center text-center gap-4 p-6 bg-white rounded-lg border border-border hover:border-primary hover:shadow-lg transition-all"
             >
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Mail className="w-6 h-6 text-primary" />
@@ -116,15 +116,12 @@ export function Contact() {
               <div>
                 <h3 className="font-semibold text-foreground mb-2">E-mail</h3>
                 <p className="text-foreground/70 text-sm break-all">
-                  lionsservicesgabon@gmail.com
-                </p>
-                <p className="text-foreground/70 text-sm break-all">
-                  lionsservicesconsulting@gmail.com
+                  lionsservicesgabon@lionssg.net
                 </p>
               </div>
             </a>
 
-            <div className="flex items-start gap-4 p-6 bg-white rounded-lg border border-border">
+            <div className="flex flex-col items-center text-center gap-4 p-6 bg-white rounded-lg border border-border">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                 <MapPin className="w-6 h-6 text-primary" />
               </div>
