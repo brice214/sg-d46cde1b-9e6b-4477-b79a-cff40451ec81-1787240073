@@ -63,23 +63,27 @@ export function Contact() {
   return (
     <section id="contact" className="section-padding bg-muted">
       <div className="container">
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Logo à gauche */}
-          <div className="flex items-center justify-center lg:sticky lg:top-32">
-            <div className="relative w-full max-w-md aspect-square">
-              <Image
-                src="/LOGO_LIONS_GABON_SERVICES_5_.jpeg"
-                alt="LIONS SERVICES GABON Logo"
-                fill
-                className="object-contain"
-                priority
-              />
+        <div className="grid lg:grid-cols-[40%_1fr] gap-12 lg:gap-16 items-stretch">
+          {/* Logo à gauche - s'adapte à la hauteur du contenu */}
+          <div className="relative lg:min-h-full hidden lg:block">
+            <div className="sticky top-32 h-fit">
+              <div className="relative w-full h-[800px] bg-white rounded-lg border border-border shadow-sm p-8 flex items-center justify-center">
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/LOGO_LIONS_GABON_SERVICES_5_.jpeg"
+                    alt="LIONS SERVICES GABON Logo"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Contenu à droite */}
           <div>
-            <div className="mb-16">
+            <div className="mb-12">
               <div className="inline-block mb-4">
                 <span className="text-primary text-sm font-semibold tracking-[0.2em] uppercase">
                   Contact
