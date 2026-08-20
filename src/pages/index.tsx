@@ -4,6 +4,15 @@ import { Hero } from "@/components/Hero";
 import { PositioningBanner } from "@/components/PositioningBanner";
 import { About } from "@/components/About";
 import { Services } from "@/components/Services";
+import { Philosophy } from "@/components/Philosophy";
+import { IndependentInspection } from "@/components/IndependentInspection";
+import { Training } from "@/components/Training";
+import { Domains } from "@/components/Domains";
+import { WhyChoose } from "@/components/WhyChoose";
+import { Commitment } from "@/components/Commitment";
+import { CTAFinal } from "@/components/CTAFinal";
+import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,7 +27,16 @@ export default function Home() {
         <PositioningBanner />
         <About />
         <Services />
+        <Philosophy />
+        <IndependentInspection />
+        <Training />
+        <Domains />
+        <WhyChoose />
+        <Commitment />
+        <CTAFinal />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
