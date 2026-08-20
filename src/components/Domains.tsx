@@ -1,4 +1,4 @@
-import { Droplets, Ship, Mountain, Flask, Wheat, Package } from "lucide-react";
+import { Droplets, Ship, Mountain, Beaker, Wheat, Package } from "lucide-react";
 
 export function Domains() {
   const domains = [
@@ -18,7 +18,7 @@ export function Domains() {
       description: "Inspection et contrôle des minerais.",
     },
     {
-      icon: Flask,
+      icon: Beaker,
       title: "CHEMICAL",
       description: "Contrôle et inspection des produits chimiques.",
     },
