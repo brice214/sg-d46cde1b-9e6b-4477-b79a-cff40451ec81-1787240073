@@ -1,26 +1,26 @@
 ---
 title: Domains, Why Choose, Training & Contact
-status: todo
+status: done
 priority: high
 type: feature
-tags: [sectors, trust, form]
+tags: [domains, training, contact]
 created_by: agent
 created_at: 2026-08-20T14:23:38Z
 position: 4
 ---
 
 ## Notes
-6 domain cards (Oil & Gas, Marine, Mining, Chemical, Agriculture, Import/Export), Why Choose section (6 pillars), Training section (substantial, not secondary), Commitment, CTA, Contact form, Footer.
+Independent Inspection: 6 features with valve-operation photo. Training: full navy section with training photo, program details, audience grid, CTA. Domains: 6-card grid (Oil&Gas, Marine, Mining, Chemical, Agriculture, Import/Export). WhyChoose: 6 reasons. Commitment: 8 values. CTA: primary call-to-action. Contact: info cards + functional form. Footer: logo, links, contact.
 
 ## Checklist
-- [ ] Independent Inspection section with checklist presentation
-- [ ] 6 Domains grid: dynamic layout, not identical cards
-- [ ] Why Choose: 6 pillars (Expertise, Indépendance, Précision, Fiabilité, Réactivité, Transmission)
-- [ ] Commitment section: values list
-- [ ] Training section: dedicated, substantial visual presence with training photo
-- [ ] Final CTA section before contact
-- [ ] Contact form: 6 fields including type dropdown (Inspection, Vérification, Conformité, Formation, Autre)
-- [ ] Footer: logo, nav, coordinates (2 phones, 2 emails), copyright
+- [x] Independent Inspection: 6 feature blocks with icons + valve-operation photo
+- [x] Training: navy section, training photo, program list, audience grid, CTA
+- [x] Domains: 6 cards with icons (Oil&Gas, Marine, Mining, Chemical, Agriculture, Import/Export)
+- [x] WhyChoose: 6 pillar cards (Expertise, Indépendance, Précision, Fiabilité, Réactivité, Transmission)
+- [x] Commitment: 8 values grid
+- [x] CTA Final: primary CTA section with navy/gold contrast
+- [x] Contact: 3 info cards (phone, email, address) + functional form with validation
+- [x] Footer: logo, services links, domains links, contact info, copyright
 
 ## Acceptance
-Training receives equal visual weight to other services. Form functional with validation. All contact info clickable on mobile.
+Training section receives visual weight equal to other services. Form functional with validation. All contact info clickable on mobile.

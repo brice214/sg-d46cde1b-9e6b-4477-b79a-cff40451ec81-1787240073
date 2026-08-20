@@ -1,6 +1,6 @@
 ---
 title: Design System & Global Styles
-status: in_progress
+status: done
 priority: urgent
 type: chore
 tags: [design-system, foundation]

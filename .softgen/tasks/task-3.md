@@ -1,6 +1,6 @@
 ---
 title: About & Services Sections
-status: todo
+status: done
 priority: high
 type: feature
 tags: [content, services]
@@ -10,14 +10,14 @@ position: 3
 ---
 
 ## Notes
-About: editorial layout with values (Indépendance, Fiabilité, Précision, Réactivité, Expertise). Services: 4 main offerings with focus on Quality/Quantity verification. Each service visually distinct, not identical cards.
+About section: asymmetric 2-col with text + values grid + valve-operation image. Services: 4 service types (Inspection, Quality/Quantity priority with bunkering photo, Conformity, Training preview). Philosophy: full-width quote section with navy background.
 
 ## Checklist
-- [ ] About section: asymmetric text + values grid + photo
-- [ ] Services section with 4 blocks: Inspection & Contrôle, Vérification Qualité & Quantité (emphasized), Conformité & Certification, Formation
-- [ ] Quality/Quantity section: "Une mesure fiable permet une décision fiable"
-- [ ] Use bunkering/valve photos where appropriate
-- [ ] Philosophy section: large quote "Ce que vous ne mesurez pas, vous coûte déjà" with industrial photo overlay
+- [x] About: expertise description, 5 values grid, valve-operation photo
+- [x] Services intro with gold accent line
+- [x] Service cards: Inspection & Contrôle, Conformité & Certification
+- [x] Quality & Quantity: large featured section with bunkering photo, comprehensive checklist, quote "Une mesure fiable..."
+- [x] Philosophy: full-width navy section with centered quote
 
 ## Acceptance
-Services clearly communicate technical capabilities without template monotony. Quality verification stands out as core offering.
+Services communicate technical capabilities without template monotony. Quality verification stands out as core offering.
