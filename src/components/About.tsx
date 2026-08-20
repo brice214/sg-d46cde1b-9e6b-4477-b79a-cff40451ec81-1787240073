@@ -50,14 +50,14 @@ export function About() {
             </div>
           </div>
           
-          <div className="relative h-[400px] lg:h-[500px]">
-            <Image
-              src="/images/valve-operation.jpg"
-              alt="Opérations d'inspection"
-              fill
-              className="object-cover rounded-lg shadow-xl"
-            />
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gold/20 rounded-lg -z-10" />
+          <div className="relative">
+            <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
+              <img
+                src="/images/valve-operation.jpg"
+                alt="Opération de contrôle de vannes industrielles - Inspection technique Lions Services Gabon"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

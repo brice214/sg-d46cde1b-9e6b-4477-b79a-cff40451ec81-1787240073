@@ -5,14 +5,13 @@ import { ArrowRight } from "lucide-react";
 export function Hero() {
   return (
     <section id="accueil" className="relative min-h-screen flex items-center overflow-hidden">
-      <Image
-        src="/images/hero-refinery.jpg"
-        alt="Inspection industrielle"
-        fill
-        className="object-cover"
-        priority
-        quality={95}
-      />
+      <div className="absolute inset-0">
+        <img
+          src="/images/hero-refinery.jpg"
+          alt="Installation pétrolière et gazière au Gabon - Inspection et contrôle industriel Lions Services"
+          className="w-full h-full object-cover"
+        />
+      </div>
       
       <div className="absolute inset-0 bg-navy/70" />
       

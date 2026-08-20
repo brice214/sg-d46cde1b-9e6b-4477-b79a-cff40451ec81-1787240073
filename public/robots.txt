@@ -1,0 +1,6 @@
+# robots.txt for Lions Services Gabon
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lionssg.net/sitemap.xml
