@@ -65,12 +65,10 @@ export function Contact() {
       {/* Background image positioned on the left with gradient fade to right */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute left-0 top-0 bottom-0 w-full md:w-2/3 lg:w-1/2">
-          <Image
+          <img
             src="/SECTION_CONTACT.jpeg"
             alt=""
-            fill
-            className="object-cover opacity-15"
-            priority={false}
+            className="w-full h-full object-cover opacity-15"
           />
         </div>
         {/* Gradient overlay fading from transparent (left) to background color (right) */}
