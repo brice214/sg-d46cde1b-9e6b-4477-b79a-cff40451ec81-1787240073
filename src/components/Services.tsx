@@ -86,14 +86,12 @@ export function Services() {
 
         <div className="bg-primary rounded-lg overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-0">
-            <div className="relative">
-              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="/images/bunkering.jpg"
-                  alt="Opérations de bunkering maritime - Contrôle qualité et quantité de carburant Lions Services Gabon"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="relative h-[400px]">
+              <img
+                src="/images/bunkering.jpg"
+                alt="Opérations de bunkering maritime - Contrôle qualité et quantité de carburant Lions Services Gabon"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-3 mb-4">

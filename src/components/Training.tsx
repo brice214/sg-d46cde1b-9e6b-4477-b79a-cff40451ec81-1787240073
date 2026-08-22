@@ -90,14 +90,12 @@ export function Training() {
             </Button>
           </div>
           
-          <div className="lg:w-1/2">
-            <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
-              <img
-                src="/images/training.jpg"
-                alt="Formation professionnelle en inspection et contrôle industriel - Programme de développement des compétences Lions Services Gabon"
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
+            <img
+              src="/images/training.jpg"
+              alt="Formation professionnelle en inspection et contrôle industriel - Programme de développement des compétences Lions Services Gabon"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

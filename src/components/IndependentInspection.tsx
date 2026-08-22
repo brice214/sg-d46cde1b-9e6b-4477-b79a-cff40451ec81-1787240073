@@ -39,14 +39,12 @@ export function IndependentInspection() {
     <section className="section-padding bg-muted">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="lg:w-1/2">
-            <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
-              <img
-                src="/images/valve-operation.jpg"
-                alt="Inspection indépendante d'équipements industriels - Vérification et certification Lions Services Gabon"
-                className="w-full h-full object-cover"
-              />
-            </div>
+          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
+            <img
+              src="/images/valve-operation.jpg"
+              alt="Inspection indépendante d'équipements industriels - Vérification et certification Lions Services Gabon"
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <div className="order-1 lg:order-2">
