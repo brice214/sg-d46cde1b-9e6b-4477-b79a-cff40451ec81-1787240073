@@ -15,7 +15,7 @@ export function Hero() {
       
       <div className="absolute inset-0 bg-navy/70" />
       
-      <div className="container relative z-10 py-32 md:py-40">
+      <div className="container relative z-10 py-20 md:py-32 lg:py-40">
         <div className="max-w-3xl">
           <div className="inline-block mb-6">
             <span className="text-gold text-sm font-semibold tracking-[0.2em] uppercase">
