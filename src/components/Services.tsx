@@ -132,7 +132,7 @@ export function Services() {
               </ul>
             </div>
 
-            <div className="relative h-[400px] lg:h-auto">
+            <div className="relative h-[500px]">
               <img
                 src="/images/bunkering.jpg"
                 alt="Opérations de bunkering maritime - Contrôle qualité et quantité de carburant Lions Services Gabon"
