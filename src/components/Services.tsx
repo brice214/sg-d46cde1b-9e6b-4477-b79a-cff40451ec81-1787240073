@@ -86,47 +86,58 @@ export function Services() {
 
         <div className="bg-primary rounded-lg overflow-hidden">
           <div className="grid lg:grid-cols-2 gap-0">
-            <div className="relative h-[400px]">
+            <div className="p-8 md:p-12 flex flex-col justify-center">
+              <div className="inline-block mb-4">
+                <span className="text-white/90 text-sm font-semibold tracking-[0.2em] uppercase">
+                  Service Premium
+                </span>
+                <div className="gold-accent-line mt-2" />
+              </div>
+              <h3 className="font-heading text-3xl font-bold text-white mb-4">
+                Vérification Qualité & Quantité
+              </h3>
+              <p className="text-white/90 text-lg mb-6 italic font-medium">
+                « Une mesure fiable permet une décision fiable. »
+              </p>
+
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Vérification des quantités</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Contrôle qualité</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Mesures et échantillonnage</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Contrôles indépendants</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Vérification des résultats</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Identification des écarts</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
+                  <span className="text-white/90">Protection des intérêts du client</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="relative h-[400px] lg:h-auto">
               <img
                 src="/images/bunkering.jpg"
                 alt="Opérations de bunkering maritime - Contrôle qualité et quantité de carburant Lions Services Gabon"
                 className="w-full h-full object-cover"
               />
-            </div>
-            <div className="p-8 md:p-12 flex flex-col justify-center">
-              <div className="flex items-center gap-3 mb-4">
-                <Scale className="w-8 h-8 text-gold" />
-                <span className="text-gold text-xs font-semibold tracking-[0.2em] uppercase">
-                  Service prioritaire
-                </span>
-              </div>
-              <h3 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
-                Vérification Qualité & Quantité
-              </h3>
-              <p className="text-white/90 text-lg mb-6 leading-relaxed">
-                Contrôle indépendant — Mesures fiables — Résultats certifiés
-              </p>
-              <ul className="space-y-3 mb-6">
-                {[
-                  "Vérification des quantités",
-                  "Contrôle qualité",
-                  "Mesures et échantillonnage",
-                  "Contrôles indépendants",
-                  "Vérification des résultats",
-                  "Identification des écarts",
-                  "Protection des intérêts du client",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3 text-white/90">
-                    <span className="w-1.5 h-1.5 bg-gold rounded-full mt-2 flex-shrink-0" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-                <p className="text-white font-semibold text-lg italic">
-                  "Une mesure fiable permet une décision fiable."
-                </p>
-              </div>
             </div>
           </div>
         </div>
