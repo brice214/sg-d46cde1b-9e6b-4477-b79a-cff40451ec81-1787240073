@@ -53,7 +53,7 @@ export function About() {
           <div className="relative">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="/images/valve-operation.jpg"
+                src="/SECTION_CONTACT.jpeg"
                 alt="Opération de contrôle de vannes industrielles - Inspection technique Lions Services Gabon"
                 className="w-full h-full object-cover"
               />

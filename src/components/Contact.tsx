@@ -199,7 +199,7 @@ export function Contact() {
 
             <div className="mb-6">
               <label htmlFor="requestType" className="block text-sm font-medium text-foreground mb-2">
-                Type de demande *
+                Objet de votre demande *
               </label>
               <Select
                 required
@@ -207,13 +207,13 @@ export function Contact() {
                 onValueChange={(value) => setFormData({ ...formData, requestType: value })}
               >
                 <SelectTrigger>
-                  <SelectValue placeholder="Sélectionnez un type de demande" />
+                  <SelectValue placeholder="Sélectionnez l'objet de votre demande" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="inspection">Inspection & contrôle</SelectItem>
-                  <SelectItem value="verification">Vérification qualité & quantité</SelectItem>
-                  <SelectItem value="conformity">Conformité & certification</SelectItem>
-                  <SelectItem value="training">Formation</SelectItem>
+                  <SelectItem value="inspection">Prestations d'inspection</SelectItem>
+                  <SelectItem value="verification">Vérification des cargaisons</SelectItem>
+                  <SelectItem value="conformity">Conformité & Certification</SelectItem>
+                  <SelectItem value="training">Formation professionnelle</SelectItem>
                   <SelectItem value="other">Autre demande</SelectItem>
                 </SelectContent>
               </Select>
