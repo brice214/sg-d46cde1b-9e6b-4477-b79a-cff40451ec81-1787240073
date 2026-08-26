@@ -127,7 +127,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="font-semibold text-foreground mb-2">Adresse</h3>
-                <p className="text-foreground/70">Libreville, Gabon</p>
+                <p className="text-foreground/70">Port-Gentil, Gabon</p>
               </div>
             </div>
           </div>
